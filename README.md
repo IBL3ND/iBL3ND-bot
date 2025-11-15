@@ -1,4 +1,3 @@
-
 # iBL3ND - Telegram 管理员转发与防骚扰机器人
 
 iBL3ND 是一个基于 Cloudflare Workers 构建的 Telegram 中转机器人，
@@ -52,9 +51,9 @@ iBL3ND 是一个基于 Cloudflare Workers 构建的 Telegram 中转机器人，
 
 | 变量 | 说明 | 默认地址 |
 |------|------|-----------|
-| **START_MSG_ZH_URL** | 机器人 `/start` 指令时加载的中文欢迎内容 | [startMessage.zh.md](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND.ZH.MD) |
-| **START_MSG_EN_URL** | 机器人 `/start` 指令时加载的英文欢迎内容 | [startMessage.en.md](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-US.MD) |
-| **DEFAULT_BLOCKLIST_URL** | 自动拉取的远程拦截词表地址 | [blocklist.txt](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-AD.TXT) |
+| **START_MSG_ZH_URL** | 机器人 `/start` 指令时加载的中文欢迎内容 | [iBL3ND.ZH.MD](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND.ZH.MD) |
+| **START_MSG_EN_URL** | 机器人 `/start` 指令时加载的英文欢迎内容 | [iBL3ND.US.MD](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-US.MD) |
+| **DEFAULT_BLOCKLIST_URL** | 自动拉取的远程拦截词表地址 | [iBL3ND-AD.TXT](https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-AD.TXT) |
 
 ### ✅ 修改方法
 
