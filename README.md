@@ -1,3 +1,4 @@
+
 # iBL3ND - Telegram 管理员转发与防骚扰机器人
 
 iBL3ND 是一个基于 Cloudflare Workers 构建的 Telegram 中转机器人，
@@ -60,17 +61,17 @@ iBL3ND 是一个基于 Cloudflare Workers 构建的 Telegram 中转机器人，
 在 Worker 代码顶部找到以下三行：
 
 ```js
-const START_MSG_ZH_URL = 'https://raw.githubusercontent.com/Tsaihyun/hyunbot/refs/heads/main/data/startMessage.zh.md';
-const START_MSG_EN_URL = 'https://raw.githubusercontent.com/Tsaihyun/hyunbot/refs/heads/main/data/startMessage.en.md';
-const DEFAULT_BLOCKLIST_URL = 'https://raw.githubusercontent.com/Tsaihyun/hyunbot/refs/heads/main/data/blocklist.txt';
+const START_MSG_ZH_URL = 'https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND.ZH.MD';
+const START_MSG_EN_URL = 'https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-US.MD';
+const DEFAULT_BLOCKLIST_URL = 'https://raw.githubusercontent.com/IBL3ND/iBL3ND-bot/refs/heads/main/iBL3ND-AD.TXT';
 ```
 
 替换为你自己仓库或其他托管平台上的文件地址。例如：
 
 ```js
-const START_MSG_ZH_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/main/data/startMessage.zh.md';
-const START_MSG_EN_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/main/data/startMessage.en.md';
-const DEFAULT_BLOCKLIST_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/main/data/blocklist.txt';
+const START_MSG_ZH_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/refs/heads/main/iBL3ND.ZH.MD';
+const START_MSG_EN_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/refs/heads/main/iBL3ND-US.MD';
+const DEFAULT_BLOCKLIST_URL = 'https://raw.githubusercontent.com/<你的GitHub用户名>/<你的仓库>/refs/heads/main/iBL3ND-AD.TXT;
 ```
 
 ---
