@@ -1,5 +1,3 @@
-# iBL3ND-bot
-
 # iBL3ND - Telegram 管理员转发与防骚扰机器人
 
 iBL3ND 是一个基于 Cloudflare Workers 构建的 Telegram 中转机器人，
